@@ -25,8 +25,11 @@ Other Supporting Components as required
 
 ## Project Functional Requirements:
 Each guess is 4 pixels
+---
 3 different colors (Red, Green & Blue) possible
+---
 Up to 4 guesses allowed
+---
 4 PB’s control guess pixels
 1 PB indicates guess is complete
 Responses must indicate correctness (blink 5 times if all 4 incorrect)
@@ -36,4 +39,4 @@ Indicate win or lose (Print to the Serial Monitor)
 - [x] Add an indicator (your choice) which activates when the player guesses the secret code correctly. --DONE 
 - [x] Add more guess/response rows (4 is required, beware of Arduino pin limitations)                   --DONE
 - [ ] Add more colors (this is only to be done if you do enhancement #2)                                --NOT DONE
-- [ ]Increase number of colors in the secret code (hard to do given Arduino pin limitations)            --NOT DONE
+- [ ] Increase number of colors in the secret code (hard to do given Arduino pin limitations)            --NOT DONE
