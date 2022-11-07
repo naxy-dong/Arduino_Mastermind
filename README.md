@@ -12,25 +12,25 @@ Once the secret code is determined, the player will get four (4) tries at guessi
 Initially, at the start of the game, all Response pixels are off.  When the player pushes the 5th PB, indicating they have a guess ready to be checked, the arduino will compare their guess to the randomly generated secret code.  After comparing, the response pixels for the guess should indicate how correct or incorrect the guess was.  Each response pixel will be either off (incorrect color), Green (Correct color guess in correct location) or Red (Correct color guess in the wrong location).  If ALL FOUR of the pixels in the guess are incorrect, then the 4 response pixels should all blink 5 times, with a 50 millisecond delay between blinks, and then go off.
 
 ## Resources:
-This project will require the use of some new componentry, primarily an LED strip, where each LED is individually addressable and RGB, so a few helpful sites have been provided here.  There are more than just these, but these should assist you getting started.
+This project will require the use of some new componentry, primarily an LED strip, where each LED is individually addressable and RGB, so a few helpful sites have been provided here.  There are more than just these, but these should assist you getting started.<br>
 
-How to add a code library in Arduino IDE to Address an RGB LED Strip (only if you have Arduino HW)
+How to add a code library in Arduino IDE to Address an RGB LED Strip (only if you have Arduino HW)<br>
 An example of using an Adafruit library to Address an NeoPixel Strip (Tinkercad, Adafruit site is very useful!)
 
 ## Arduino or Tinkercad Hardware Requirements:
-Arduino (1)
-NeoPixel Strip 4 (8) - [ requires installing NeoPixel Library, click the link for NeoPixel instruction ]
-Pushbuttons (5)
-Other Supporting Components as required
+Arduino (1) <br>
+[NeoPixel Strip](https://learn.adafruit.com/neopixel-painter/test-neopixel-strip) 4 (8) - [ requires installing NeoPixel Library, click the link for NeoPixel instruction ] <br>
+Pushbuttons (5) <br>
+Other Supporting Components as required <br>
 
 ## Project Functional Requirements:
 Each guess is 4 pixels <br>
 3 different colors (Red, Green & Blue) possible <br>
-Up to 4 guesses allowed
-4 PB’s control guess pixels
-1 PB indicates guess is complete
-Responses must indicate correctness (blink 5 times if all 4 incorrect)
-Indicate win or lose (Print to the Serial Monitor)
+Up to 4 guesses allowed <br>
+4 PB’s control guess pixels <br>
+1 PB indicates guess is complete <br>
+Responses must indicate correctness (blink 5 times if all 4 incorrect) <br>
+Indicate win or lose (Print to the Serial Monitor) <br>
 
 ## Potential Additions/Enhancements:
 - [x] Add an indicator (your choice) which activates when the player guesses the secret code correctly. --DONE 
