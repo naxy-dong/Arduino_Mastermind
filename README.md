@@ -24,12 +24,9 @@ Pushbuttons (5)
 Other Supporting Components as required
 
 ## Project Functional Requirements:
-Each guess is 4 pixels
----
-3 different colors (Red, Green & Blue) possible
----
+Each guess is 4 pixels <br>
+3 different colors (Red, Green & Blue) possible <br>
 Up to 4 guesses allowed
----
 4 PB’s control guess pixels
 1 PB indicates guess is complete
 Responses must indicate correctness (blink 5 times if all 4 incorrect)
