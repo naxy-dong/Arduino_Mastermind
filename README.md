@@ -1,6 +1,10 @@
 # Arduino_Mastermind
 The goal of this project is to implement a simplified version of the classic game, Mastermind, using the Arduino Microcontroller and any supporting components you need.  A definition of how the game works can be found by looking up Mastermind on Wikipedia, but we are modifying the rules to make it easier to design & build.  In general your design will randomly generate a “secret code” of four (4) random colors when it is first run.  The colors can be either Red, Green or Blue (RGB) and each color can be used up to 4 times (i.e all pixels = Red).  The player will get four chances to guess the code and the arduino will respond to each guess with a four (4) pixel response.
 
+### Mastermind - The Rules
+[Please read the rules here](https://webgamesonline.com/mastermind/rules.php)
+[Try out the online version of Mastermind](https://webgamesonline.com/mastermind/index.php)
+
 ## The Guesses
 Once the secret code is determined, the player will get four (4) tries at guessing the secret code by generating a series of 4 colors on a 4-pixel strip (the guess).  Each pixel in a 4 pixel guess strip will be controlled by an individual PB.  Initially all pixels should be off and each PB should ONLY change a pixel in the 1st guess row.  The first guess is determined by the player, using the push buttons (PB) to change the color of each pixel, rotating from Red-to-Green-to-Blue repeatedly until they are satisfied with their choice for each pixel.  Once all 4 pixels are at the desired color, a 5th PB will be pressed indicating the player wants the Arduino to respond to their guess.  If they are incorrect, this process will repeat using the 2nd guess and 2nd response, etc.
 
