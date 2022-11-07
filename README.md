@@ -2,7 +2,7 @@
 The goal of this project is to implement a simplified version of the classic game, Mastermind, using the Arduino Microcontroller and any supporting components you need.  A definition of how the game works can be found by looking up Mastermind on Wikipedia, but we are modifying the rules to make it easier to design & build.  In general your design will randomly generate a “secret code” of four (4) random colors when it is first run.  The colors can be either Red, Green or Blue (RGB) and each color can be used up to 4 times (i.e all pixels = Red).  The player will get four chances to guess the code and the arduino will respond to each guess with a four (4) pixel response.
 
 ## Project link
-[Mastermind Project] (https://www.tinkercad.com/things/dg8moJVZBLn-da-real-mastermind-project/editel)
+[Mastermind Project](https://www.tinkercad.com/things/dg8moJVZBLn-da-real-mastermind-project/editel)
 
 ### Mastermind - The Rules
 Please read the rules [here](https://webgamesonline.com/mastermind/rules.php) <br>
