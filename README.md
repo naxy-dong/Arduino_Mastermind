@@ -33,7 +33,7 @@ Responses must indicate correctness (blink 5 times if all 4 incorrect)
 Indicate win or lose (Print to the Serial Monitor)
 
 ## Potential Additions/Enhancements:
-Add an indicator (your choice) which activates when the player guesses the secret code correctly. --DONE
-Add more guess/response rows (4 is required, beware of Arduino pin limitations)                   --DONE
-Add more colors (this is only to be done if you do enhancement #2)                                --NOT DONE
-Increase number of colors in the secret code (hard to do given Arduino pin limitations)           --NOT DONE
+- [x] Add an indicator (your choice) which activates when the player guesses the secret code correctly. --DONE 
+- [x] Add more guess/response rows (4 is required, beware of Arduino pin limitations)                   --DONE
+- [ ] Add more colors (this is only to be done if you do enhancement #2)                                --NOT DONE
+- [ ]Increase number of colors in the secret code (hard to do given Arduino pin limitations)            --NOT DONE
